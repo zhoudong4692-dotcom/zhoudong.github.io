@@ -1,0 +1,22 @@
+
+baseURL = "https://example.github.io/"
+title = "楚胜汽车集团"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.zh]
+    weight = 1
+    languageName = "中文"
+    contentDir = "content/zh"
+  [languages.en]
+    weight = 2
+    languageName = "English"
+    contentDir = "content/en"
+
+[params]
+  phone = "+8613308661032"
+  email = "zhoudong4692@gmail.com"
+  wechat = "+8613227222276"
+  address = "随州市交通大道K045号（原汉十公路107国道旁）"
+  form_action = "https://formspree.io/f/xayrkrgj"
